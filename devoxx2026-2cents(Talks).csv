@@ -1,0 +1,205 @@
+Day,Time,Title,Speaker(s),# Reviews,Avg rating
+Mon 5 Oct,09:30,"Agent Loops, Decoded: Fundamentals to Agentic Patterns in Spring AI",Christian Tzolov,1,4
+Mon 5 Oct,09:30,From AI to Agent: A Field Guide to Agentic Patterns in LangChain4j,Loïc Magnette,0,
+Mon 5 Oct,09:30,From Autocomplete to Autopilot: How AI Is Changing the Developer Experience,Tugdual Grall,0,
+Mon 5 Oct,09:30,Prompt It Right: Spring Boot Testing in the AI Era,Philip Riecks,1,6
+Mon 5 Oct,09:30,Solving Multimodal and Long-Context Challenges,Laurent Picard,0,
+Mon 5 Oct,09:30,?? From Java to AI: Build Your First Intelligent Agent System!,"Emmanuel Hugonnet, Antoine Sabot-Durand, yann Blazart",0,
+Mon 5 Oct,10:30,"Java is for Data Science, Too: Building an End-to-End ML Pipeline Without Leaving the JVM","Sven Reimers, Zoran Sevarac",0,
+Mon 5 Oct,12:40,Destructoring is the future of Javas Encapsulation,Richard Gross,0,
+Mon 5 Oct,12:40,Introduction to Spring AI,Timo Salm,0,
+Mon 5 Oct,12:40,"Java, LEGO & AI: Teaching the Next Generation to Build, Not Just Prompt",Eddy Vos,0,
+Mon 5 Oct,13:30,Building Autonomous AI Agents with Spring,"Timo Salm, Sandra Ahlgrimm",0,
+Mon 5 Oct,13:30,Can AI Build a Jakarta EE Runtime? The Vidocq Experiment,"Antoine Sabot-Durand, yann Blazart, Sebastien Blanc",0,
+Mon 5 Oct,13:30,Codepocalypse Now: LangChain4j vs JetBrains Koog,"Viktor Gamov, Baruch Sadogursky",0,
+Mon 5 Oct,13:30,From Developer to Builder: A Spec-Driven Development Deep Dive,Simon Martinelli,3,7
+Mon 5 Oct,13:30,Modern Java in Practice - The Features That Matter,"Nicolai Parlog, Falk Sippach",0,
+Mon 5 Oct,13:30,The Quarkus advantage: Turning build-time metaprogramming into runtime performances,"Mario Fusco, Georgios Andrianakis, Francesco Nigro",0,
+Mon 5 Oct,13:30,Using Structured Concurrency and Scoped Values to Create a Virtual Threads Based Asynchronous Application,"Ana-Maria Mihalceanu, José Paumard",0,
+Mon 5 Oct,16:50,Expanding Vector Search Beyond Similarity,Alina Yurenko,0,
+Mon 5 Oct,16:50,From Install to Insight: A Hands-On GPU Lab for Java Developers,"Thanos Stratikopoulos, Christos Kotselidis, Mary Xekalaki, Michalis Papadimitriou",0,
+Mon 5 Oct,16:50,Secure Your Coding Agent Like It’s Malware,Richard Gross,0,
+Mon 5 Oct,16:50,The day we stopped publishing Kafka event from our API...,Virginie Zinck,1,6
+Mon 5 Oct,16:50,Wiring Up the AI Mesh: Building A2A-Compliant Java Agents,"Emmanuel Hugonnet, Mario Fusco, Kevin Dubois",0,
+Mon 5 Oct,16:50,Your AI Agent Trusts Strangers. Let Me Show You.,Elder Moraes,0,
+Mon 5 Oct,17:35,Beyond Code: The Intent-Driven IDE for the Agentic Age,Bruno Borges,0,
+Mon 5 Oct,17:35,"In the loop, not in the dark: staying in control in the era of dark software factories (Mon 17:35)",Alex Gavrilescu,0,
+Mon 5 Oct,17:35,Stopping AI-Generated Architectural Drift: Deterministic Guardrails for Agentic Coding,Sasha Podlesniuk,0,
+Mon 5 Oct,17:35,Teaching a New Dog Old Tricks: Give the Agent a Debugger,Anton Arhipov,0,
+Mon 5 Oct,18:20,Building the Trusted Agent Ecosystem,"Ivan Petrov, Patrick McGrath",0,
+Mon 5 Oct,18:20,"One tool to rule them all: bash, a tiny LLM, and the birth of a coding agent",Philippe Charrière,0,
+Mon 5 Oct,18:20,Testing Architecture Made Simple,Gunter Rotsaert,0,
+Mon 5 Oct,19:00,"Hi, Belgian Java Community, we want to meet you!","Frank Delporte, Tom Cools",0,
+Mon 5 Oct,19:00,LangChain4j Community BOF,Dimitris Andreadis,0,
+Tue 6 Oct,09:30,Building AI Agents from First Principles,Adib Saikali,0,
+Tue 6 Oct,09:30,Cheaper or Better? The Strategic Choice Behind AI Adoption,Miriam Sasse,2,2.5
+Tue 6 Oct,09:30,From code to control: master deployments with Feature Flagging and OpenFeature,"Alexandre Touret, Philippe Duval",0,
+Tue 6 Oct,09:30,Learning modern Java the playful way,"Marit van Dijk, Piotr Przybyl",0,
+Tue 6 Oct,09:30,"Loop Engineering, beyond prompt, context, and harness engineering","Guillaume Laforge, Wietse Venema",2,1
+Tue 6 Oct,09:30,Will Valhalla Fix Tony's Billion-Dollar Mistake?,"José Paumard, Remi Forax",1,5
+Tue 6 Oct,09:30,????? Developing with AI: What if it were as simple as adding a library? ?????,"Stéphane Philippart, Matthieu Vincent",0,
+Tue 6 Oct,12:40,Beyond system.out.println: Applying a Debugging Mindset at Scale,Cees Bos,0,
+Tue 6 Oct,12:40,"From Developer to Story Builder: Engineering a Novel, an ARG, and a Transmedia World with AI",Raphael Semeteys,0,
+Tue 6 Oct,12:40,Measuring the Unmeasurable: Evaluating Generative AI in Practice,Erin Pacquetet,0,
+Tue 6 Oct,13:30,"AI Security Deep Dive, Securing Agents and AI Applications",Brian Vermeer,3,6.7
+Tue 6 Oct,13:30,Beyond the Chatbox: Ship On-Device AI in Your Browser,"Marcel Bagemihl, Stefan Ludwig",0,
+Tue 6 Oct,13:30,Don’t burn your fingers in the heat of the AI (r)evolution. (And get an OpenClaw).,Maarten Vandeperre,0,
+Tue 6 Oct,13:30,Responsibly Dimming the Lights in the Software Factory,Victor Rentea,1,9
+Tue 6 Oct,13:30,Specialized AI Agents: from concept to production,David Gageot,0,
+Tue 6 Oct,13:30,Technical Workshop on AI-Native Tooling for Java Development,"Juan Antonio Breña ????????, Leandro Loureiro",0,
+Tue 6 Oct,13:30,Write Java Code Like a Seasoned Hacker: 2026 Edition,Soroosh Khodami,1,7
+Tue 6 Oct,16:50,"30 minutes to build your first Vidocq app, the 100% European Sovereign Java stack with zero external dependencies",Sebastien Blanc,0,
+Tue 6 Oct,16:50,Analyze and Optimize Your Applications with JFR,"Ana-Maria Mihalceanu, José Paumard",0,
+Tue 6 Oct,16:50,"BootUI, the missing developer console for Spring Boot and Quarkus",Julien Dubois,0,
+Tue 6 Oct,16:50,Building Production-Ready Agentic Systems with LangChain4j and Quarkus,"Mario Fusco, Georgios Andrianakis, Kevin Dubois",0,
+Tue 6 Oct,16:50,Solving Distributed Transactions with the Saga Pattern and Temporal,Andrei Sulyz,2,3
+Tue 6 Oct,16:50,Tap into the NVIDIA Ecosystem from Java with TornadoVM's Hybrid API,"Thanos Stratikopoulos, Michalis Papadimitriou, Mary Xekalaki",0,
+Tue 6 Oct,16:50,?? Dev Containers: the ultimate toolbox for developers?,Stéphane Philippart,1,3
+Tue 6 Oct,17:35,AsyncAPI in action: OpenAPI for event-driven applications,Michel Schudel,0,
+Tue 6 Oct,17:35,Beyond assertEquals: Probabilistic Security and Bias Testing for Java LLM Applications,Iryna Dohndorf,0,
+Tue 6 Oct,17:35,From Laptop to Lakehouse: Analytical SQL with DuckDB,Oliver Geisser,0,
+Tue 6 Oct,17:35,The Java Story | The Official Documentary,Georges Saab,0,
+Tue 6 Oct,17:35,The Magic of OpenTelemetry: Rewriting Your App in Production,Bruce Bujon,0,
+Tue 6 Oct,18:20,Do We Need a Build Language? Java Builds Java,Rafael Winterhalter,0,
+Tue 6 Oct,18:20,Exquisite Evals for Skills & MCPs,"Christian Tzolov, James Ward",0,
+Tue 6 Oct,18:20,"Java Script (No, Not That One): Modern Automation with Java",Loïc Magnette,0,
+Tue 6 Oct,18:20,The Importance of HITL to Avoid Chaos and EU Regulations for AI,Juan Antonio Breña ????????,0,
+Tue 6 Oct,19:00,Quarkus Community BOF,Dimitris Andreadis,0,
+Tue 6 Oct,19:00,Who will build software after AI?,Eddy Vos,0,
+Wed 7 Oct,09:30,Welcome to Devoxx,Stephan Janssen,0,
+Wed 7 Oct,09:50,From Brainless to Brilliant — Giving an Open-Source Robot a Mind of Its Own,Jan Van Wassenhove,1,5
+Wed 7 Oct,10:10,Half of a billion Idle GPUs: The Case for On-Device AI,Prince Canuma,1,5
+Wed 7 Oct,10:30,"A Fleet of AI Agents, Each in Its Own Sandbox: Inside Docker's Agentic Platform",Jean-Laurent de Morlhon,1,5
+Wed 7 Oct,10:50,The Year of the Runtime,Ron Pressler,1,5
+Wed 7 Oct,11:10,Agentic Engineering Reconversion,Victor Rentea,1,5
+Wed 7 Oct,12:00,Build the Builder: A Java Coding Agent in Your IDE with ACP,Vadim Briliantov,1,4
+Wed 7 Oct,12:00,"Emergent DevEx: The Good, the Bad, and the Legacy","Makan Sepehrifar, Soroosh Khodami",0,
+Wed 7 Oct,12:00,Fun with Flags: How OpenFeature Solves Your Feature Flag Headaches,Simon Schrottner,2,5
+Wed 7 Oct,12:00,I Hired a Real Robot as My Junior Dev — and Now My Kids Don't Want to Learn Java Anymore,Jan Van Wassenhove,0,
+Wed 7 Oct,12:00,"MCP 2.0 - Stateless, New Auth (CIMD), and Exciting Extensions",James Ward,0,
+Wed 7 Oct,12:00,Post-Quantum Today: How Your Passwords Will Be Safe in a Quantum Future,Julian Burr,1,7
+Wed 7 Oct,12:00,Structured Concurrency Looms,"Alan Bateman, Viktor Klang",0,
+Wed 7 Oct,12:00,"Wrap, Reshape, or Redesign: Retrofitting Your APIs for a World of Agents",Horacio Gonzalez,0,
+Wed 7 Oct,13:05,AI Doesn’t Click Buttons: Building APIs for the Agentic Age,Kim Lauwers,0,
+Wed 7 Oct,13:05,Engineering for the Long Haul: Operating Open Source at Scale,Sven Sellen,1,1
+Wed 7 Oct,13:05,Eval Driven Development: Why you need it to make your Agentic Application survive Production,Urs Peter,0,
+Wed 7 Oct,13:05,"From User Prompt to JPA Query: Comparing Tool Calling, Structured Output & Hybrid Approach",Sebastian Kühnau,0,
+Wed 7 Oct,13:05,Let's dance! – Teaching your robot some moves with reinforcement learning,"Thomas Endres, Martin F., Tobias Lübbe",0,
+Wed 7 Oct,13:05,Life in the Ivory Tower: Confessions of a Former Developer Who Turned Into an Architect,Robin Custers,1,6
+Wed 7 Oct,13:05,Mission Possible: The 45-Minute Path to Bullet-Proof Java Container Images,Pasha Finkelshtein,1,10
+Wed 7 Oct,13:05,"Safety, speed, and governance in the agentic era",Oleg Šelajev,0,
+Wed 7 Oct,14:00,A Year of Agentic AI Evolution: Lessons Learned Building Production-grade Agentic Systems,"Mario Fusco, Kevin Dubois",0,
+Wed 7 Oct,14:00,Deterministic by Design - Achieving Reproducible Builds with Maven,Maarten Mulders,0,
+Wed 7 Oct,14:00,"G1, ZGC, Shenandoah, ... with all these GCs in Java, which one do I choose?",Antoine DESSAIGNE,0,
+Wed 7 Oct,14:00,Harness Engineering: Building the System Around Your AI Coding Agent,JI Darwish,1,1
+Wed 7 Oct,14:00,"Java, Raspberry Pi, and the Art of Overengineering Everyday Life",Matti Tahvonen,0,
+Wed 7 Oct,14:00,Run Frontier Open Models on consumer hardware,Prince Canuma,1,7
+Wed 7 Oct,14:00,The pizza party of the future ?? software teams and product value in the age of coding agents,"Katie Clark, Simon Rohrer",0,
+Wed 7 Oct,14:00,What rules the virtual? How our systems obey physical laws.,Marianne Hoornenborg,1,8
+Wed 7 Oct,15:10,0 to 350 Engineers on Claude Code: What Could Go Wrong?,Nicolas Martignole,0,
+Wed 7 Oct,15:10,Bootiful Spring Boot 4,Josh Long,0,
+Wed 7 Oct,15:10,CRAcking Compliance - The EU Cyber Resilience Act,Christian Schabetsberger,0,
+Wed 7 Oct,15:10,"How to survive and thrive as a dev (team) in the exponential age of AI. Real-world AI adoption, smarter ways of working, and lessons from the front lines",Sander Hoogendoorn,1,6
+Wed 7 Oct,15:10,Integration patterns for distributed systems,"Dirk Fröhner, Sabarish Sekar",1,5
+Wed 7 Oct,15:10,Pragmatic multi-cloud architecture: designing for resilience and portability beyond the hype,Alexandre Touret,0,
+Wed 7 Oct,15:10,Teaching an Old Handle New Tricks: From Core Reflection to FFM,"Maurizio Cimadamore, Viktor Klang",0,
+Wed 7 Oct,15:10,Why Documentation Won’t Write Itself—and AI Won’t Save You,Christian Heitzmann,1,6
+Wed 7 Oct,16:40,AI Made Building Cheap. Now Decisions Are the Bottleneck.,"Dave Sammut, João Rosa",0,
+Wed 7 Oct,16:40,Architecture Observability and Guardrails,Victor Rentea,1,8
+Wed 7 Oct,16:40,Big Runtimes Make Efficient Programs,Ron Pressler,0,
+Wed 7 Oct,16:40,Building an Agent Ready Platform,Timo Salm,0,
+Wed 7 Oct,16:40,Building LLM Inference Engines in Java with TornadoVM and the NVIDIA Ecosystem,"Thanos Stratikopoulos, Michalis Papadimitriou, Orion Papadakis",0,
+Wed 7 Oct,16:40,Consistency Patterns in Event-Driven Architecture,Emanuel Trandafir,1,3
+Wed 7 Oct,16:40,"GraalVM Next: Layers, Crema, and WebAssembly in Action",Alina Yurenko,0,
+Wed 7 Oct,16:40,"Surviving the ""AI Slopageddon"": How AI shakes the foundations of Open Source",Raphael Semeteys,0,
+Wed 7 Oct,17:50,A Deserter Returns: What the Java community helped me rediscover,Thierry Chantier,0,
+Wed 7 Oct,17:50,Beyond encryption at rest: computing on encrypted data,Andrea Iacono,0,
+Wed 7 Oct,17:50,Create your own AI Agents without code,David Gageot,0,
+Wed 7 Oct,17:50,Kubernetes for Developers,Alain Regnier,0,
+Wed 7 Oct,17:50,No Country For Old APIs. Wrapping legacy Java services as MCP tools without rewriting them.,Željko Kozina,0,
+Wed 7 Oct,17:50,Quarkus Meets Leyden at the JVM Performance Edge,"Georgios Andrianakis, Ana-Maria Mihalceanu",0,
+Wed 7 Oct,17:50,rm -rf self-doubt: Debugging Impostor Syndrome for Developers,Vincent Mayers,1,2
+Wed 7 Oct,17:50,When benchmarks go bad - what we learned from measuring performance wrong,"Francesco Nigro, Holly Cummins",0,
+Wed 7 Oct,18:50,Getting started with speaking: Your first conference talk,Bert Jan Schrijver,0,
+Wed 7 Oct,18:50,GraalVM Community BOF,"Thomas Wuerthinger, Fabio Niephaus, Alina Yurenko",0,
+Thu 8 Oct,09:30,223 Pull Requests in 11 Days: The Recipe for Building Real Software with AI Agents,Julien Dubois,0,
+Thu 8 Oct,09:30,AI without spaghetti: Clean architecture in the age of AI,"Maarten Vandeperre, Lutske van der Meer",0,
+Thu 8 Oct,09:30,From vibe coding to harness engineering: modernizing a regulated environment with AI,Anyul Rivas,0,
+Thu 8 Oct,09:30,Java on Kubernetes Without Container Images: The WebAssembly Way,Bruno Borges,0,
+Thu 8 Oct,09:30,Project Detroit: From Foreign Libraries to Foreign Language Runtimes,Maurizio Cimadamore,0,
+Thu 8 Oct,09:30,Rewriting the rules: How AI transforms engineering and inspiring young minds,"Ayoub Hammou Ahabchane, Kamel Zaraoui",0,
+Thu 8 Oct,09:30,Snake in 10 Lines: Learning More by Coding Less,Guus de Wit,1,9
+Thu 8 Oct,09:30,Toxic Flows in MCP Servers and Skills: What Your Agent Blindly Trusts,Brian Vermeer,1,8
+Thu 8 Oct,10:40,Agents With Seatbelts: Practical Ways to Keep AI Code Gen Under Control,Jonathan Vila López,0,
+Thu 8 Oct,10:40,"Coder, Coach, Catalyst - using questions to make people grow",Martin Mazur,2,6.5
+Thu 8 Oct,10:40,Dream Machines & Walled Gardens,Anders Norås,1,3
+Thu 8 Oct,10:40,Hey Belfius! Meet our new bank AI assistant—and discover how we’re building and securing AI across Belfius.,Nicolas Goosse,0,
+Thu 8 Oct,10:40,High-Performance Java-Native AI with CUDA and the Vector API,Zoran Sevarac,0,
+Thu 8 Oct,10:40,How to Architect Green Software,Ioannis Kolaxis,0,
+Thu 8 Oct,10:40,"Reflect, Transform, Accelerate: Bringing GPU Computing to Java",Juan Fumero,0,
+Thu 8 Oct,10:40,When ORM Becomes OMG: Performance Pitfalls in JPA and Friends,Jos Roseboom,0,
+Thu 8 Oct,11:50,Making sense of vector databases,Balkrishna Rawool,0,
+Thu 8 Oct,11:50,Quixotic: Pure Java Inference at Native Speed,Alfonso² Peterssen,0,
+Thu 8 Oct,11:50,Say Goodbye to LLM API keys with Workload Identity Federation,Siarhei Biarozkin,0,
+Thu 8 Oct,11:50,SIMD for Java: how Elasticsearch already benefits from the Panama Vector API,Piotr Przybyl,0,
+Thu 8 Oct,11:50,State of Agentic Coding,Daniela Petruzalek,0,
+Thu 8 Oct,11:50,Taming Microservice Overload: Our Journey to Modular Monoliths,Mario Klaver,2,4.5
+Thu 8 Oct,11:50,The Rise of Agent Enablement: Coding Agents Don't Scale Themselves. Neither Do Your Teams.,Patrick Debois,0,
+Thu 8 Oct,11:50,The Yearly Java Performance Update for 2026,Per-Ake Minborg,1,3
+Thu 8 Oct,12:55,"""You May Now Optimize the Wedding"": Optimizing the Seating, Bachelor Party, and Honeymoon with Constraint AI","Geoffrey De Smet, Tom Cools",0,
+Thu 8 Oct,12:55,Agents Shouldn't Control Control Flow,Jeremy Adams,0,
+Thu 8 Oct,12:55,Engineering Lessons from Working on Software Older Than Me,Guust Ysebie,1,7
+Thu 8 Oct,12:55,Green Maven builds: sustainable CI in practice,Jan Boonen,0,
+Thu 8 Oct,12:55,Is the IDE dead ?,Martin Lippert,0,
+Thu 8 Oct,12:55,Keeping Spring Applications Secure in the Age of AI,Neven Cvetkovic,0,
+Thu 8 Oct,12:55,The Devoxx Robot Games,Stephan Janssen,1,1
+Thu 8 Oct,12:55,"Who to blame? The AI, The Programmer, or The Prompt?",Makan Sepehrifar,0,
+Thu 8 Oct,13:50,Ask the Architects,"Gavin Bierman, Maurizio Cimadamore, Per-Ake Minborg, Viktor Klang, Alan Bateman, Georges Saab",0,
+Thu 8 Oct,13:50,"Building, Shipping and Governing AI Agents on Kubernetes","Tom O'Rourke, Ep Heijting",0,
+Thu 8 Oct,13:50,"Conquest, time travel and explosions using Git",Alexander Chatzizacharias,1,9
+Thu 8 Oct,13:50,Hardwood: Building a Parquet Parser From Scratch (With a Little Help From AI),Gunnar Morling,2,9.5
+Thu 8 Oct,13:50,Java and the Next Generation of Programming Models,Ana-Maria Mihalceanu,1,2
+Thu 8 Oct,13:50,Software engineering in the age of AI agents: who’s in control?,Bert Jan Schrijver,0,
+Thu 8 Oct,13:50,Taming the Chaos: Security and Predictability in LLM-Powered Applications,Rustam Mehmandarov,0,
+Thu 8 Oct,13:50,The Hexagonal Hangover,Ties van de Ven,0,
+Thu 8 Oct,15:00,Beyond the Pod: Architecting and Scaling AI Agents on Kubernetes,Abdellfetah SGHIOUAR,0,
+Thu 8 Oct,15:00,Build a private cluster for the office,John Davies,0,
+Thu 8 Oct,15:00,"Faster Development with Java, Python, and Micronaut","Graeme Rocher, Thomas Wuerthinger",0,
+Thu 8 Oct,15:00,Kill All Mutants! (Intro to Mutation Testing),Dave Aronson,1,7
+Thu 8 Oct,15:00,Modernizing legacy code with AI: hands-on examples & lessons learned,"Koen Vanderkimpen, Wim Lambrecht",0,
+Thu 8 Oct,15:00,The Dark Secrets of Computer Science,Fabien Marsaud,2,4
+Thu 8 Oct,15:00,Underneath the Black Marker: AI Techniques for Detecting and Reversing Redactions,David vonThenen,0,
+Thu 8 Oct,15:00,Why Java Is Perfect for AI - Just Not the AI You’re Thinking Of,"Trisha Gee, Andrey Santrosyan",0,
+Thu 8 Oct,16:30,ADRs: The Why and How,Venkat Subramaniam,0,
+Thu 8 Oct,16:30,Choose your own adventure in agentic design patterns,Guillaume Laforge,0,
+Thu 8 Oct,16:30,Everyday JSON,"Viktor Klang, Alan Bateman",1,7
+Thu 8 Oct,16:30,Introducing Agent Control Theory: The System Runs the Model,Mark Pollack,0,
+Thu 8 Oct,16:30,Knocking on the Wrong Door: The Six Developers You’ll Meet in Security,Enrique Larios Vargas,1,4
+Thu 8 Oct,16:30,Microservices Without the Distributed Mess,Steven Hillaert,0,
+Thu 8 Oct,16:30,Owning the Code You Didn't Type,Renato Guerra Cavalcanti,1,7
+Thu 8 Oct,16:30,Owning the inference layer: When and how to run your own models,"Maarten Vandeperre, Camille Nigon",0,
+Thu 8 Oct,17:40,AI in the Dark: Running LLMs in Air-Gapped Production Environments,Mihaela Gheorghe-Roman,0,
+Thu 8 Oct,17:40,Bootiful Security,"Daniel Garnier-Moiroux, Josh Long",0,
+Thu 8 Oct,17:40,Decoding the Cosmos: Voyager's 1970s Algorithms Meet Today's Cutting-Edge Tech,Pieter van der Meer,0,
+Thu 8 Oct,17:40,From a startup stack to 5 microseconds: inside a crypto trading engine,Oleg Lobanov,0,
+Thu 8 Oct,17:40,Help! I hate my team mate!,Jessica Siewert,1,1
+Thu 8 Oct,17:40,"Production-Ready Java Containers: Smaller, Faster, Smarter",Albert Attard,0,
+Thu 8 Oct,17:40,Their API Went Down. So Why Is My App on Fire?,Ines Panker,0,
+Thu 8 Oct,18:50,Open Source in the Age of AI: Where's the value?,Trisha Gee,0,
+Thu 8 Oct,18:50,What Does it Print? The Java Quiz (Hard Edition ??),Clément de Tastes,0,
+Thu 8 Oct,18:55,"F*ck The System, and other bad ideas for the future",Jo Caudron,0,
+Fri 9 Oct,09:30,All you need to know about Maven 4!,Matthias Bünger,0,
+Fri 9 Oct,09:30,Escaping Java's Allocation Gravity with Value Classes,"Clément de Tastes, Remi Forax",2,4
+Fri 9 Oct,09:30,"In the loop, not in the dark: staying in control in the era of dark software factories (Fri 09:30)",Alex Gavrilescu,0,
+Fri 9 Oct,09:30,The Quantum Tech Lead: Hands-On and Abstract at the Same Time,Cristian Schuszter,2,4.5
+Fri 9 Oct,09:30,Why it takes 3000 commits to bring Valhalla's value objects to the JDK,David Simms,0,
+Fri 9 Oct,10:40,10 Billion Records vs. The Regulator: An Architectural Post-Mortem of an 11TB Exadata Failure,Martin Ladecky,2,8
+Fri 9 Oct,10:40,Embabel Agent v1.5,Rod Johnson,0,
+Fri 9 Oct,10:40,Is AI killing XP practices? (Or are we letting it?),Nacho Cougil,1,5
+Fri 9 Oct,10:40,What’s happening with Project Amber?,Gavin Bierman,0,
+Fri 9 Oct,10:40,You thought technical debt was bad? Meet design debt!,"Julien Topçu, Josian Chevalier",1,4
+Fri 9 Oct,11:50,10 boring reasons why Java is the best ecosystem for agentic development,Ed Burns,0,
+Fri 9 Oct,11:50,"Java Next - From Valhalla to Leyden, from Babylon to Panama, from Amber to Detroit",Nicolai Parlog,0,
+Fri 9 Oct,11:50,"My old trains have a second life, with TinyGo!","Florian FORESTIER, Justine Bachelard",3,7.3
+Fri 9 Oct,11:50,Strangling the dragon: modernizing legacy systems with the Strangler Fig pattern,Daniel Raneland,1,7
+Fri 9 Oct,11:50,We created our own AI orchestrator and it became so much more!,Ricky van Rijn,0,
