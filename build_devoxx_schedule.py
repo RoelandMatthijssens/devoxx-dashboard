@@ -49,6 +49,10 @@ def main():
                 full = details.get(str(t.get("id")), {})
                 t["youtubeUrl"] = full.get("youtubeUrl", "")
                 t["description"] = full.get("description", "")
+                # Public Devoxx engagement counters. "Favourites" are attendee
+                # bookmarks; "views" are schedule-detail views, not YouTube views.
+                t["totalFavourites"] = full.get("totalFavourites", 0)
+                t["devoxxViews"] = full.get("totalViews", 0)
                 t["slidesUrl"] = slides.get(t.get("title", ""), "")
                 t["teamRating"] = ratings.get(t.get("title", ""))
             slots.append({"from": s["fromDate"], "to": s["toDate"], "room": s.get("roomName", ""),
