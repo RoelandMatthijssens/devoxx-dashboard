@@ -1,0 +1,14 @@
+{
+  "2025": {
+    "Testing Challenges in the Age of AI": "https://speakerdeck.com/kpavlov/testing-challenges-in-the-age-of-ai-devoxx-belgium-2025",
+    "Domain-centric? Why Hexagonal and Onion Architecture Are Answers to the Wrong Question": "https://speakerdeck.com/olivergierke/domain-centric-why-hexagonal-onion-and-clean-architecture-are-answers-to-the-wrong-question",
+    "From OpenAI to Opensource AI": "https://www.slideshare.net/slideshow/devoxx-belgium-2025-from-openai-to-opensource-ai/283755092",
+    "Building AI agents in Java": "https://www.slideshare.net/slideshow/building-ai-agents-in-java-devoxx-belgium-2025/284214754",
+    "Java for AI": "https://cr.openjdk.org/~psandoz/conferences/2025-Devoxx-Belgium/Devoxx-Belgium-25-Java-For-AI.pdf"
+  },
+  "2026": {
+    "Codepocalypse Now: LangChain4j vs JetBrains Koog": "https://drive.google.com/file/d/1jpwSxTC2LbaF2zVeYSHXfLgtMB6afoSq/view",
+    "State of Agentic Coding": "https://speakerdeck.com/danicat/devoxx-2026-state-of-agentic-coding",
+    "Modernizing legacy code with AI: hands-on examples & lessons learned": "https://www.smalsresearch.be/devoxx-2026-ai-and-legacy-code/"
+  }
+}
