@@ -59,7 +59,7 @@ def main():
         days.append({"name": d["day"].title(), "date": slots[0]["from"][:10], "slots": slots})
     days.sort(key=lambda d: d["date"])
     data_file = Path(f"devoxx-belgium-{args.year}-schedule.json")
-    data_file.write_text(json.dumps(days, ensure_ascii=False), encoding="utf-8")
+    data_file.write_text(json.dumps(days, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     template = Path(__file__).with_name("devoxx_schedule_template.html").read_text()
     page = template.replace("/*__DATA_URL__*/", data_file.name)
     page = page.replace("/*__STORAGE_KEY__*/", f"devoxx-belgium-{args.year}-seen")

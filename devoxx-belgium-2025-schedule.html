@@ -1,9 +1,50 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Devoxx Belgium 2025 — Full schedule</title>
-<link rel="stylesheet" href="schedule.css"></head><body data-schedule-url="devoxx-belgium-2025-schedule.json" data-storage-key="devoxx-belgium-2025-seen">
-<header><h1>Devoxx Belgium 2025</h1><p>October 6–10 · Kinepolis Antwerp · complete multi-track timeline</p></header>
-<div class="controls"><div id="tabs"></div><input id="search" type="search" placeholder="Filter talks, speakers, rooms…"><button id="videoOnly">▶ Videos only</button><span class="legend"><b style="color:#ec294b">●</b> YouTube recording &nbsp; <b style="color:#42c7ff">●</b> session</span></div>
-<main id="app"></main>
-<dialog id="talkDialog"><img class="modal-image" id="modalImage" alt="" hidden><div class="modal-body"><div class="modal-head"><h2 id="modalTitle"></h2><button class="modal-close" aria-label="Close">×</button></div><div class="modal-meta" id="modalMeta"></div><div class="modal-description" id="modalDescription"></div><div class="modal-actions" id="modalActions"></div></div></dialog>
-<script src="schedule.js" defer></script></body></html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Devoxx Belgium 2025 — Full schedule</title>
+    <link rel="stylesheet" href="schedule.css">
+  </head>
+  <body
+    data-schedule-url="devoxx-belgium-2025-schedule.json"
+    data-storage-key="devoxx-belgium-2025-seen"
+  >
+    <header>
+      <h1>Devoxx Belgium 2025</h1>
+      <p>October 6–10 · Kinepolis Antwerp · complete multi-track timeline</p>
+    </header>
+
+    <div class="controls">
+      <div id="tabs"></div>
+      <input
+        id="search"
+        type="search"
+        placeholder="Filter talks, speakers, rooms…"
+      >
+      <button id="videoOnly">▶ Videos only</button>
+      <span class="legend">
+        <b style="color:#ec294b">●</b> YouTube recording
+        &nbsp;
+        <b style="color:#42c7ff">●</b> session
+      </span>
+    </div>
+
+    <main id="app"></main>
+
+    <dialog id="talkDialog">
+      <img class="modal-image" id="modalImage" alt="" hidden>
+      <div class="modal-body">
+        <div class="modal-head">
+          <h2 id="modalTitle"></h2>
+          <button class="modal-close" aria-label="Close">×</button>
+        </div>
+        <div class="modal-meta" id="modalMeta"></div>
+        <div class="modal-description" id="modalDescription"></div>
+        <div class="modal-actions" id="modalActions"></div>
+      </div>
+    </dialog>
+
+    <script src="schedule.js" defer></script>
+  </body>
+</html>
