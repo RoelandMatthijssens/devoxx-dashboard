@@ -13,14 +13,20 @@ For this repository, the default URL will be:
 ## Local preview
 
 ```sh
-python3 -m http.server 8000
+make serve
 ```
 
-Then open <http://localhost:8000/>.
+Then open <http://127.0.0.1:8000/>. Serving over HTTP is required because the schedule pages fetch their edition data from JSON files.
+
+To use another port or listen address:
+
+```sh
+make serve PORT=8080 HOST=0.0.0.0
+```
 
 ## Rebuild a schedule
 
-The generated schedule pages are self-contained HTML files. To retrieve public Devoxx data and rebuild one:
+To retrieve public Devoxx data and rebuild an edition's HTML and JSON files:
 
 ```sh
 python3 build_devoxx_schedule.py 2025
