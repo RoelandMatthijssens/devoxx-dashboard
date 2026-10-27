@@ -64,7 +64,10 @@
           "description": "At their core, AI agents are context orchestrators — gathering information, querying models, evaluating outputs, and adapting their approach. This live-coded session takes you from <strong>Spring AI</strong> fundamentals to agentic patterns.<br>We start with the fundamentals: ChatClient essentials, context engineering, and session memory. We cover how Advisors extend the LLM execution path, including <strong>Recursive Advisors</strong> implementing the <strong>Agent Loop</strong> — the loop behind every autonomous agent — then enrich context with <strong>RAG</strong> and connect to external services via <strong>Tool Calling</strong> and <strong>MCP</strong>.<br><br>From there, we build up the agentic patterns Tool Calling and Advisors make possible:<br><ul><li><strong>Tool Search Tool</strong> — dynamic tool discovery for agents with hundreds of tools</li><li><strong>LLM-as-a-Judge</strong> — automated response evaluation in an evaluator-optimizer loop</li><li><strong>Explainable Agents</strong> — augmenting tool calls with the model's reasoning for debuggability</li><li><strong>Agent Skills</strong> — LLM-agnostic capabilities, loaded on demand</li><li><strong>Todo</strong> / structured planning — preventing \"lost in the middle\" failures</li><li><strong>AskUserQuestion</strong> — gathering requirements before acting</li><li><strong>Subagent Orchestration</strong> — delegating to specialized agents with isolated context</li><li><strong>MCP</strong>, <strong>A2A</strong>, and <strong>ACP</strong> — securing tool access, building rich MCP Apps, and connecting agents to other agents and clients</li></ul><br>You'll leave understanding how a few building blocks compose into any agentic pattern, with an early preview of what's next: <strong>durable, crash-recoverable agentic workflows in Spring AI 2.1</strong>.",
           "totalFavourites": 216,
           "slidesUrl": "",
-          "teamRating": null
+          "teamRating": {
+            "rating": 4.0,
+            "reviews": 1
+          }
         }
       },
       {
@@ -148,7 +151,10 @@
           "description": "AI now writes most of your test code, and that changes the skill you need. The bottleneck is no longer typing tests by hand; it's knowing what good tests look like, where each kind belongs, and how to prompt AI to produce them. Without that understanding, you get tests that pass but verify nothing.<br><br>This 3-hour session gives you the full picture of testing Spring Boot applications, so you can direct AI with confidence instead of trusting it blindly.<br><br>We'll cover the complete testing pyramid: fast unit tests, sliced tests that load only the part of the context you need, and integration tests that exercise the real thing with Testcontainers. For each level, you'll see when to reach for it, what it actually proves, and how to prompt AI to write it well.<br><br>Along the way you'll collect practical patterns and recipes you can apply directly to your own codebase, plus the common pitfalls that produce slow, flaky, or misleading tests. We'll close with quick wins that improve almost any Spring Boot test suite.<br><br>Whether you're newer to Spring Boot testing or want to sharpen how you collaborate with AI tools, you'll leave knowing not just how to write tests, but how to judge whether the ones AI hands you are worth keeping.",
           "totalFavourites": 170,
           "slidesUrl": "",
-          "teamRating": null
+          "teamRating": {
+            "rating": 6.0,
+            "reviews": 1
+          }
         }
       },
       {
@@ -451,7 +457,10 @@
           "description": "Spec-Driven Development is a way of working with AI coding agents where the specification drives the code, not the prompt. I use Spec-Driven Development according to the AI Unified Process (AIUP) in several customer projects, and in this deep dive, I show how it works in practice.<br><br>We will build a business application from scratch, and also learn how to work on brownfield projects. We write specifications, let an AI agent generate the code, run it, and add tests that check the code against the spec. When the requirements change, we update the spec and regenerate the code rather than patching the code by hand.<br><br>We will explore the harness: the rules, context, and tests around the agent that keep its output predictable enough for real work. By the end, you will know what Spec-Driven Development is, where it helps, where it does not, and how to try it on your own stack.<br>",
           "totalFavourites": 537,
           "slidesUrl": "",
-          "teamRating": null
+          "teamRating": {
+            "rating": 7.0,
+            "reviews": 3
+          }
         }
       },
       {
@@ -655,7 +664,10 @@
           "description": "The Day We Stopped Publishing Kafka Events from Our Order API — and Why It Strengthened Our Event-Driven Architecture<br> <br>This talk will present how we addressed the “dual write” issue we had in our Order Management solution between our database and our Kafka cluster, causing data inconsistencies and complicated error handling. <br><br>The answer ? A simplified version of the Outbox pattern—leveraging a Debezium connector to reliably decouple database writes from Kafka event publishing and using our Order table as the outbox table to simplify the solution.<br><br>This architectural shift resulted in a simpler, more robust Order API, eliminating Kafka-specific code and complex error handling. This loosely coupled architecture also offers consumer-driven business logic with easier extensibility.<br><br>Join this talk to learn how this architectural decision strengthened our event-driven architecture and discover the crucial details of configuring Debezium—including heartbeat and monitoring—to ensure stability and avoid database disk space issues.<br>",
           "totalFavourites": 105,
           "slidesUrl": "",
-          "teamRating": null
+          "teamRating": {
+            "rating": 6.0,
+            "reviews": 1
+          }
         }
       },
       {
@@ -1092,7 +1104,10 @@
           "description": "Most organizations adopt AI with an efficiency promise: faster delivery, leaner processes, fewer costs, more automation. That is useful — but it is only one possible game.<br><br>There is a second path: using AI to increase customer value. Better products, smarter services, more relevant experiences, faster learning from real usage, and stronger relationships with users. The problem is that these two paths often require different rules:<br><br>Efficiency asks: How can we deliver the same thing faster and cheaper? <br>Customer value asks: What can we now make possible that was impossible before?<br><br>In this session, we will explore the strategic choice behind AI adoption. Are we using AI to optimize existing processes, or to redesign the value we create? We will look at common traps: automating broken workflows, measuring productivity instead of impact, treating developers as cost factors, and accelerating delivery without improving user outcomes.<br>Participants will learn how to distinguish efficiency-driven AI from value-driven AI, how hidden metrics shape AI adoption, and how teams can ask better questions before introducing new tools, agents, or automation.<br><br>This is not a talk about specific AI tools. It is a conversation about the game we design around AI: the incentives, feedback loops, roles, metrics, and customer value assumptions that determine whether AI makes software merely cheaper — or genuinely better.<br><br>Target audience: anyone involved in AI adoption, software delivery, or product strategy.",
           "totalFavourites": 131,
           "slidesUrl": "",
-          "teamRating": null
+          "teamRating": {
+            "rating": 2.5,
+            "reviews": 2
+          }
         }
       },
       {
@@ -1186,7 +1201,10 @@
           "description": "<em>\"I don't prompt Claude anymore. I have loops running that prompt Claude... My job is to write loops.\"</em> said Boris Cherny, the creator of Claude Code, demonstrating a change in the way developers work with their favorite coding agent. Developers are moving away from <em>manually coding</em> and writing isolated prompts, and toward <strong>Loop Engineering</strong>: the practice of <strong>designing automated systems that steer coding agents autonomously</strong>.<br><br>In this 3-hour deep dive, we’ll look at the concepts, approaches, and architecture behind <em>\"Loop Engineering\"</em>. You will learn that the power of AI doesn't (only) lie in the model itself, but in the <strong>harness</strong> and <strong>loops</strong> built around it. We will explore the core primitives required to build robust loops (<strong>skills</strong>, <strong>triggers</strong>, <strong>hooks</strong>, Git worktrees, sub-agents, state & memory...), how to implement the fundamental loop structures (turn-based, <strong>goal-based</strong>, time-based, and <strong>proactive</strong>), and how to hopefully prevent these autonomous systems from launching rm -Rf on your codebase!<br><br>You will leave this session with concrete examples, advice, and tips'n tricks, to build <em>your own loops</em>, replacing tedious manual tasks with self-driving workflows that investigate, implement, and verify their own code and artifacts.",
           "totalFavourites": 445,
           "slidesUrl": "",
-          "teamRating": null
+          "teamRating": {
+            "rating": 1.0,
+            "reviews": 2
+          }
         }
       },
       {
@@ -1219,7 +1237,10 @@
           "description": "In March 2027, in JDK 28 (JVM gods willing!), after more than 12 years of effort, the Valhalla project will deliver its first feature: Value Classes (JEP 401) as a preview feature. Value classes are defined as regular classes with a \"value\" keyword in front. They are backward compatible with your code written before Java 28, without you having to recompile it.<br>Value classes bring new optimization opportunities at the JVM level: scalarization on stack and flattening on heap. For that, the Java specification had to be reinterpreted and enhanced, challenging us to reconsider some of the fundamentals on which Java was created 30 years ago. What does == mean? Is a reference always a pointer? Can an instance of a value class be null? Can you observe the transition between the default values and the final values of fields during object construction? And more.<br>This presentation covers all these questions, showing the trade-offs that need to be made in order to bring value classes to the Java platform.<br>You will hear about new code patterns, performance, and type safety. And, as value classes are just the first step, we will cover what Valhalla should bring in the future.",
           "totalFavourites": 189,
           "slidesUrl": "",
-          "teamRating": null
+          "teamRating": {
+            "rating": 5.0,
+            "reviews": 1
+          }
         }
       },
       {
@@ -1441,7 +1462,10 @@
           "description": "AI is transforming how we write software and the applications we build, introducing entirely new security challenges.<br><br>In this session, we’ll explore two critical areas of AI security. First, we’ll look at agentic coding and the risks of AI agents that read untrusted content, execute commands, and interact with your development environment. Next, we’ll examine AI-powered applications, covering threats such as prompt injection, tool abuse, poisoned retrieval, and memory manipulation.<br><br>The focus is on practical defence. You’ll learn proven mitigation strategies, architectural patterns, and the current landscape of AI security tooling, including guardrails, runtime protection, and security testing frameworks. Through live demos and real-world examples, you’ll leave with actionable techniques to build and use AI systems more securely.",
           "totalFavourites": 297,
           "slidesUrl": "",
-          "teamRating": null
+          "teamRating": {
+            "rating": 6.7,
+            "reviews": 3
+          }
         }
       },
       {
@@ -1497,7 +1521,10 @@
           "description": "The most agentified engineering teams of my clients are all converging towards the same workflow, aiming to optimize the code review step while preventing human cognitive debt and skill erosion. This talk summarizes their practices, teaching actionable steps and milestones to gradually improve the quality of AI-generated code up to a point in which you can safely start decreasing the code review ‘intensity’. Dark Factories are not built ground up - instead, lights are responsibly dimmed, then turned off one by one, area by area, after observing impeccable code produced consistently.<br><br>",
           "totalFavourites": 508,
           "slidesUrl": "",
-          "teamRating": null
+          "teamRating": {
+            "rating": 9.0,
+            "reviews": 1
+          }
         }
       },
       {
@@ -1525,7 +1552,10 @@
           "description": "Ever wondered how you would write code if you were a seasoned hacker?<br>In this hands-on session, you’ll learn how to adopt that mindset to build secure Java applications with confidence in the AI era. Every year, thousands of organizations are breached, and billions of records are exposed. Only in 2024, cyberattacks compromised 1.7 billion individuals, and millions of applications were targeted daily. Through \"live demos\" of real-world attacks and defenses, we’ll cover the essentials every modern Java developer needs in 2026.<br><br><strong>Key takeaways:</strong><br><ul><li>A quick look at the OWASP Top 10 (2025) and practical solutions for the newest risks.</li><li>How to implement supply chain security strategies to defend against threats like <em>Shai-Hulud</em> or <em>Log4Shell</em>.</li><li>Ways to integrate essential security checks (SAST/SCA) into your CI/CD pipeline for continuous protection.</li><li>Practical threat modeling techniques to identify and prioritize risks early in the design phase and later in incident response.</li><li>How to set up security monitoring and logging to detect and respond to attacks in production.</li><li>Practical strategies to use AI assistants securely in your development workflow.</li><li>And finally, why using hardened container images is a simple yet highly effective strategy for runtime security.</li></ul>",
           "totalFavourites": 266,
           "slidesUrl": "",
-          "teamRating": null
+          "teamRating": {
+            "rating": 7.0,
+            "reviews": 1
+          }
         }
       },
       {
@@ -1665,7 +1695,10 @@
           "description": "<strong>Detailed Description</strong><br>Temporal makes it remarkably easy to implement long-running business workflows. But once those workflows span multiple services and require synchronous business decisions, straightforward Saga implementations quickly expose non-obvious problems.<br><br>We'll explore the challenges we encountered while building distributed transactions with Temporal in a real production system. Starting with a classic Saga implementation, we'll examine why it wasn't enough, what problems emerged around synchronous workflows, failures, cancellation and compensation, and how the architecture evolved to address them. We'll also discuss reconciliation, consistency guarantees, and the trade-offs between keeping workflows simple and building resilient distributed systems.<br><br><strong>Key Takeaways</strong><br>• Common pitfalls when implementing Saga with Temporal.<br>• Designing reliable synchronous workflows.<br><br><strong>Target Audience</strong><br>Backend engineers, software architects, and tech leads building distributed systems or using Temporal for business workflow orchestration.",
           "totalFavourites": 146,
           "slidesUrl": "",
-          "teamRating": null
+          "teamRating": {
+            "rating": 3.0,
+            "reviews": 2
+          }
         }
       },
       {
@@ -2339,7 +2372,10 @@
           "description": "The most powerful compute fleet ever assembled wasn't built by a cloud provider. It's the half a billion-plus Apple Silicon devices already in laps, pockets, and offices — each with a GPU, a neural engine, and unified memory that would have qualified as a workstation five years ago. Collectively they represent more silicon than any datacenter on Earth. And for AI, they sit almost entirely idle.<br>This keynote makes the case that the next era of AI won't be defined by bigger clusters, but by inference moving to where the data already lives. I'll tell that story through building the MLX open-source ecosystem (mlx-vlm, mlx-audio, nativ — 5M+ downloads, used by Google DeepMind, Hugging Face, and LM Studio): what it actually takes to make consumer hardware run frontier models, why the server playbook fails on-device, and the hard-won engineering — quantization that holds accuracy, KV-cache compression, speculative decoding across chip generations — that closes the gap.<br>You'll leave with a new mental model for where AI workloads belong: which belong in the cloud, which belong on-device, and why the answer is about to flip for more of them than you think, for reasons of privacy, latency, cost, and sovereignty.<br>For every engineer and leader deciding where their AI features will live.",
           "totalFavourites": 448,
           "slidesUrl": "",
-          "teamRating": null
+          "teamRating": {
+            "rating": 5.0,
+            "reviews": 1
+          }
         }
       },
       {
@@ -2367,7 +2403,10 @@
           "description": "What if your next pull request was opened by an AI agent, one that read the issue, wrote the code, ran the tests, and only pinged you when it was ready to merge?<br><br>That's how Docker's engineering team ships software today. Built on top of <strong>Docker Cloud Sandboxes</strong>, the Docker Agentic Platform gives every AI agent its own isolated environment: real shell access, a live Docker daemon, git, GitHub CLI, and a JWT-scoped identity. Orchestrators spawn specialists, architect, implementer, reviewer ; that work in parallel across sandboxed boundaries, coordinating asynchronously without ever touching each other's secrets or state.<br><br>We'll walk the hard lessons (context cost, hallucinations, knowing when to keep a human in the loop), and what it takes to make autonomous agents safe and observable in production.",
           "totalFavourites": 486,
           "slidesUrl": "",
-          "teamRating": null
+          "teamRating": {
+            "rating": 5.0,
+            "reviews": 1
+          }
         }
       },
       {
@@ -2395,7 +2434,10 @@
           "description": "AI coding agents are changing how we develop software. Existing evidence suggests that, up to a point, they significantly reduce the importance of the linguistic features of programming languages, and are able to write code equally well in most if not all mainstream languages. But a programming language is much more than syntax. An AI agent can't make Python code as fast as Java code, and it can't make Java code run as well as JavaScript in the browser. In a world where syntax is less important, the runtime gains even more prominence, and Java's runtime is a superb target for code written by, or with the assistance of, AI.<br><br>Java's runtime - the JVM and the standard library - has been Java's core strength since Java's inception. Java programs get faster and easier to operate just by upgrading to a newer JDK, thanks to continually improving JIT optimizations, better GCs, better observability, and a better standard library. This is an especially dynamic time for the Java runtime, integrating value classes from Project Valhalla, AOT code compilation from Project Leyden, making compact object headers the default from Project Lilliput, and removing the need to manually set the heap size so that the JVM could automatically optimise the CPU/RAM tradeoff. Each of these involved tremendous change under the hood, but little or no change to the programming model.",
           "totalFavourites": 460,
           "slidesUrl": "",
-          "teamRating": null
+          "teamRating": {
+            "rating": 5.0,
+            "reviews": 1
+          }
         }
       },
       {
@@ -2423,7 +2465,10 @@
           "description": "What does a \"software engineer\" do today? How do we balance our personal life with the anxiety about the future, and the burning excitment of the dreams that agents allow us to build today? What's the fastest way to onboard this reconversion and how can one speed it up? This keynote shares lessons from the experience of hundreds of AI-converted developers all over the world, aiming to help you navigate these extra-ordinary times our profession faces today.",
           "totalFavourites": 563,
           "slidesUrl": "",
-          "teamRating": null
+          "teamRating": {
+            "rating": 5.0,
+            "reviews": 1
+          }
         }
       },
       {
@@ -2459,7 +2504,10 @@
           "description": "Most agent talks stop when the agent can call a tool. This session tackles the harder and more practical question: how do you build a custom, production-minded agent for your organization’s workflows and guardrails and make it a first-class participant inside the developer’s IDE?<br><br>In this live-coded session, we’ll build a coding agent in Java / Kotlin, connect it directly to an IntelliJ-based IDE through the Agent Client Protocol (ACP), and extend it into an orchestrator that can collaborate with external coding agents such as Codex, Claude, and Gemini.<br><br>You’ll learn how to:<br><ol><li><strong>Build your own agent on the JVM</strong>, including its reasoning loop, tools, state, and guardrails. Although we’ll create a coding agent, the same techniques apply to chatbots, banking assistants, support agents, and other domain-specific systems.</li><li><strong>Connect a custom agent to an IDE through ACP protocol</strong>, without creating a dedicated integration for every agent.</li><li><strong>Integrate and orchestrate multiple external coding agents through ACP </strong>in a coordinated pipeline, assigning each task to the agent best suited to perform it.</li><li>Take advantage of the IDE as more than a chat window by <strong>giving agents access to the project context, code understanding, developer-defined skills, and more!</strong></li></ol><br>By the end of the session, you’ll have a practical blueprint for building an agent that understands your development environment, follows your rules, and can coordinate other agents to complete real software-engineering tasks.",
           "totalFavourites": 399,
           "slidesUrl": "",
-          "teamRating": null
+          "teamRating": {
+            "rating": 4.0,
+            "reviews": 1
+          }
         }
       },
       {
@@ -2581,7 +2629,10 @@
           "description": "This talk explores:<br>* how classical RSA encryption works<br>* how quantum algorithms (i.e. Shor’s algorithm) break RSA<br>* brief overview of where we are regarding quantum hardware<br>* why PQC still matters right now, to prevent “harvest now, decrypt later” attacks<br>* what lattice-based PQC looks like and how far along we already are in adopting it<br><br>The target audience is everyone generally interested in future technologies. Especially everyone who might have heard about quantum computing and Shor's algorithm breaking encryption, but don't know what that means for the future of cryptography and where we're at today.<br><br>The key take aways are a (very basic) general understanding how quantum computing works, to understand how it has the potential to break RSA, as well as quantum-safe encryption methods that are already being put in place, how they work and what the future might look like.",
           "totalFavourites": 262,
           "slidesUrl": "",
-          "teamRating": null
+          "teamRating": {
+            "rating": 7.0,
+            "reviews": 1
+          }
         }
       },
       {
@@ -2609,7 +2660,10 @@
           "description": "Feature flags have revolutionized the software delivery lifecycle, enabling teams to decouple releases from deployments and create a more agile development process. They're often hailed as one of the key practices in modern software development—at least in theory.<br><br>However, as systems grow in complexity, so do the challenges associated with feature flagging. From supporting multiple languages and managing targeted evaluations to avoiding vendor lock-in and safely decommissioning obsolete code, what initially seems like a straightforward problem can quickly become daunting.<br><br>The OpenFeature community is tackling these challenges head-on by providing vendor-agnostic SDKs and a suite of powerful tools designed to simplify the feature flagging experience. Join me as we explore the common pitfalls of feature flagging and discover how OpenFeature can help bring the fun back into this critical aspect of software development.",
           "totalFavourites": 284,
           "slidesUrl": "",
-          "teamRating": null
+          "teamRating": {
+            "rating": 5.0,
+            "reviews": 2
+          }
         }
       },
       {
@@ -2709,7 +2763,10 @@
           "description": "Your mission is to turn a bloated CVE-infested container image into a low-noise image with low vulnerability exposure and clear operational posture. You have 45 minutes before the explosive attack hits. Mission possible! This session provides a straight path towards building more secure and maintainable Java container images. We will identify the key culprits such as stale dependencies, outdated base, lack of provenance, and excessive privileges. Then, we will draft a step-by-step plan to:<br><ul><li>Pick a minimal and well-maintained base image,</li><li>Shrink privileges,</li><li>Prove provenance with version pinning, signatures and SBOMs,</li><li>Scan and classify with CVSS rules to cut noise and fix what’s exploitable,</li><li>Automatically monitor for updates with Dependabot/Renovate.</li></ul><br>Expect a before/after scan comparison, copy-and-paste Dockerfile instructions, verification checklist, and a clear and reproducible path towards hardened Java container images that provide an impenetrable lock-box for your applications.<br><br>",
           "totalFavourites": 203,
           "slidesUrl": "",
-          "teamRating": null
+          "teamRating": {
+            "rating": 10.0,
+            "reviews": 1
+          }
         }
       },
       {
@@ -2793,7 +2850,10 @@
           "description": "Open-source software powers the world’s most innovative enterprises, but keeping it secure, compliant, and reliable over the long haul is where complexity (and unexpected risk) quietly creeps in. This presentation offers a guided tour through the challenges organizations face when working with open-source technologies that often have short lifecycles and require regular upgrades. Think of it as a practical playbook for extending the useful life of open-source software – keeping systems secure, audits calm, and engineers focused on building what’s next, not fighting what’s old. You will learn how TuxCare solutions, from rebootless patching and end-of-life security updates to noise-free vulnerability scanning and enterprise support for community operating systems, help enterprises run open-source software with confidence – even when the calendar, the threat landscape, or upstream support say otherwise",
           "totalFavourites": 37,
           "slidesUrl": "",
-          "teamRating": null
+          "teamRating": {
+            "rating": 1.0,
+            "reviews": 1
+          }
         }
       },
       {
@@ -2849,7 +2909,10 @@
           "description": "Up until a couple of years ago, I was riding the waves of the latest technologies, shipping code, and mocking the \"suits\" who spent their days writing documentation that was never read. But then, the unthinkable happened. I joined a new organization and transitioned to the dark side. I became one of them: an Enterprise Architect. Or as I like to call myself: a fake enterprise architect.<br><br>I quickly found out that my new reality meant dealing with consultants pitching one-shot solutions as the ultimate silver bullet (pun intended), and uncovering the psychology of IT by learning why technical decisions are rarely about technology. At the same time, I wanted to stay in touch with the real world where<strong> </strong>frameworks evolve and pipelines run. But how on earth do you find the time for that?<br><br>This talk is a transparent look inside my shiny new office, commonly known as the Ivory Tower. Whether you're a developer trying to challenge corporate IT decisions, an architect struggling to explain them, or you just want to make fun of enterprise architects (the real ones, that is): this session is for a broad audience, sharing lessons learned trying to bridge the gap between two worlds that should never be disconnected.<br><br><strong>Expect to walk away with:</strong><br><ul><li>Tips on how to keep your technical skills alive while moving up the corporate ladder</li><li>A look into the psychology behind IT decision-making and why it's never just about the code</li><li>How to foster real collaboration and break down the walls of the Ivory Tower</li></ul>",
           "totalFavourites": 501,
           "slidesUrl": "",
-          "teamRating": null
+          "teamRating": {
+            "rating": 6.0,
+            "reviews": 1
+          }
         }
       },
       {
@@ -2943,7 +3006,10 @@
           "description": "Getting a model to run on a Mac is easy. Getting it to run fast — with production-grade throughput, stable memory behavior, and accuracy that survives optimization — is where the real engineering lives. This session goes deep into the inference stack behind the MLX ecosystem (mlx-vlm, mlx-audio, nativ — 5M+ downloads).<br>We'll work through the full pipeline with measured numbers at every stage:<br><strong>Unified memory in practice</strong> — why the architecture that makes 512GB of \"VRAM\" possible also changes how you batch, allocate, and evict; and where memory bandwidth, not compute, becomes the wall across M-series generations.<br><strong>Continuous batching without a scheduler's luxury</strong> — handling concurrent requests when the same RAM serves the OS, the app, and the model.<br><strong>KV-cache compression and quantization</strong> — which techniques hold accuracy on real long-context workloads versus which only look good in benchmarks, with results from MATH500 and LongBench evaluations.<br><strong>Speculative decoding across chip generations</strong> — when draft models pay off and when the overhead eats the win.<br><strong>Porting war stories</strong> — bugs from porting 1000+ models, and the testing methodology that now catches them.<br>You'll leave able to reason about the accuracy/latency/memory triangle on consumer hardware — and knowing which server-side habits to unlearn.<br>For engineers building or deploying on-device inference. Familiarity with transformer inference assumed.",
           "totalFavourites": 327,
           "slidesUrl": "",
-          "teamRating": null
+          "teamRating": {
+            "rating": 7.0,
+            "reviews": 1
+          }
         }
       },
       {
@@ -2999,7 +3065,10 @@
           "description": "AI coding agents feel like magic. It is easy to assume there is something exotic inside, some secret sauce that makes agents reliable. Well, there isn't, the core of every AI coding agent is very simple: send a message to a model, parse tool calls, execute them, feed the results back, repeat. Everything else (context management, permissions, observability, safety guardrails) is engineering layered on top of it that we should be building.<br><br>In this deep dive, we build that engine from scratch (in Java!), live on stage. Not to build the best agent, but to understand how the pieces fit together. We point it at a real codebase, and watch what happens. It compiles. Tests pass. And it violates every convention the team agreed on. So we iterate. We add context, constraints, and feedback, and at each step we examine what changed, why it helped, and what it maps to in the tools you already use.<br><br>The goal is a mental model. By the end, you will understand the components inside the AI coding tools you use every day, what you can layer on top to get smoother results and safer expectations, and where the honest limits still are, the gap no amount of engineering has closed yet.",
           "totalFavourites": 606,
           "slidesUrl": "",
-          "teamRating": null
+          "teamRating": {
+            "rating": 1.0,
+            "reviews": 1
+          }
         }
       },
       {
@@ -3149,7 +3218,10 @@
           "description": "What we call virtual is actually physical. Every bit of data we store, move, or erase is represented by a physical state, and every physical system obeys the laws of nature.<br><br>So let’s look beneath the abstractions of our digital world. What are the physical properties of the information we handle? Does data have weight? How much energy does it take to store or delete information? What really travels through our networks, at what speed, and can information ever truly disappear?<br><br>Our curiosity then takes us beyond binary computation into the quantum realm. How do superposition, uncertainty, and measurement challenge our understanding of state and information? How do stable, observable states emerge from a world governed by quantum rules?<br><br>After unveiling the simple math behind AI last year, Marianne now explores the physical foundations of computation. Without a formal background in physics, she follows her curiosity into the depths of our digital systems and resurfaces with what is hidden beneath the abstractions.",
           "totalFavourites": 114,
           "slidesUrl": "",
-          "teamRating": null
+          "teamRating": {
+            "rating": 8.0,
+            "reviews": 1
+          }
         }
       },
       {
@@ -3198,7 +3270,10 @@
           "description": "Today's applications are interconnected: they expose APIs, publish events, call third-party services, and externalize states. They must therefore address the fundamental challenges of distributed systems, such as out-of-order delivery, retries, idempotence, and partial failures. To address these challenges, architects must carefully evaluate integration options while considering how to manage complex system interactions. In this session, learn about common design trade-offs for distributed systems and how to navigate them with design patterns, illustrated by examples.<br><br>The target audience is from many floors the architect elevator would stop by: Software architects, software developers, IT executives and everyone around - such general software architecture sessions are relevant for many roles in every company in every segment. For those with legacy architectures, it provides an outlook on what migration and modernization transformation they could go through in order to get towards flexible, individually evolvable and scalable systems that are loosely coupled.",
           "totalFavourites": 440,
           "slidesUrl": "",
-          "teamRating": null
+          "teamRating": {
+            "rating": 5.0,
+            "reviews": 1
+          }
         }
       },
       {
@@ -3259,7 +3334,10 @@
           "description": "The AI revolution isn’t coming — it’s already altering how we architect products, ship features, and run engineering teams.<br><br>During this talk, in his signature charismatic style, Sander Hoogendoorn, CTO at iBOOD.com and a seasoned developer with over four decades of coding experience, doesn’t get stuck in theory or hype, but confronts the pressing issues head-on. You’ll get a no-fluff, grounded view from iBOOD — what we’re already doing with AI, how we built it into our systems, and how it shapes the way we work.<br><br>We won’t shy away from the dark side either — vendor lock-in, breaking prompts, model opacity, shifting APIs, and how quickly a dependency can become fragile. These are real risks that shape architectural and organizational decisions we make daily.<br><br>To survive exponential speed, we retired many practices: no Scrum, no rigid ceremonies, no big upfront plans, no pull requests or code reviews. Instead, we embrace working in fluid autonomous microteams, continuous learning, experimentation, and radical adaptability.<br><br>Expect an honest, fast-paced, and experience-driven session — mixing architecture, culture, and practical insight — on what it truly takes for developers and teams to survive and thrive in the age of AI.<br>",
           "totalFavourites": 717,
           "slidesUrl": "",
-          "teamRating": null
+          "teamRating": {
+            "rating": 6.0,
+            "reviews": 1
+          }
         }
       },
       {
@@ -3499,7 +3577,10 @@
           "description": "Distributed systems have a dirty secret. Your message broker swears the domain event is published — others are already listening, already reacting to this new order. But then, in a split second, your database rolls back. A constraint violation. Something breaks. And now the entire system knows about an order that never actually existed.<br><br>This talk covers the patterns that prevent that chaos: the Dual Write problem, Outbox and Inbox patterns for consistency between database and event stream, idempotent consumers, and Sagas — Orchestration and Choreography.<br><br>You'll leave knowing which pattern solves which problem, when to use each, and what you're really trading off with eventual consistency",
           "totalFavourites": 410,
           "slidesUrl": "",
-          "teamRating": null
+          "teamRating": {
+            "rating": 3.0,
+            "reviews": 1
+          }
         }
       },
       {
@@ -3583,7 +3664,10 @@
           "description": "How do you observe and enforce the code quality to prevent AI Slop? The majority of the teams attending my workshops report 100% of their code is AI-generated already for many months. Some even report they often have to fix PRs that business vibe-coded. This talk summarizes the design feedback loops they setup for their agents, as well as techniques to maximize the human mental bandwidth in the code review step. You’ll hear about C4 model, plantuml diagrams, captured sequence diagrams, complexity visualisation, and efficient testing practices.<br>",
           "totalFavourites": 861,
           "slidesUrl": "",
-          "teamRating": null
+          "teamRating": {
+            "rating": 8.0,
+            "reviews": 1
+          }
         }
       },
       {
@@ -3754,7 +3838,10 @@
           "description": "\"Whether you think you can or you think you can't – you're right.\"<br><br>In software, we trust the logic of our systems, but the \"human hardware\" running the code often executes a background process of self-doubt. Imposter Syndrome isn't a permanent bug; it's a physiological response hard-coded into our biology. From junior devs facing their first pull request to Java Champions keynote-ing at international conferences, the \"fraud detection\" alert is a universal experience.<br><br>This session deconstructs the neuroscience behind this phenomenon—from the amygdala's \"fight-or-flight\" triggers to the cognitive effects of cortisol. We will move beyond the \"soft skill\" fluff to examine practical, iterative steps for managing these triggers. Learn how to reframe self-doubt as a signal for growth, optimize your response to code reviews, and lean into the discomfort of the unknown to thrive in an industry that changes every week.<br><br>You’ll walk away with tools you can apply immediately, whether you’re debugging unfamiliar code, speaking up in design discussions, or stepping into a bigger role",
           "totalFavourites": 287,
           "slidesUrl": "",
-          "teamRating": null
+          "teamRating": {
+            "rating": 2.0,
+            "reviews": 1
+          }
         }
       },
       {
@@ -4117,7 +4204,10 @@
           "description": "AI agents don't just trust MCP servers. They trust Skills too. Both are attack surfaces, yet most teams treat neither as part of the same trust model.<br><br>In this talk, we introduce toxic flows: trust paths through an agent stack where tool descriptions, MCP responses, and Skill definitions can leak sensitive context, manipulate agent decisions, and trigger unintended actions without the model violating a single instruction. We demonstrate this live.<br><br>This session is not about adding authentication or wrapping everything in TLS. It's about understanding how trust failures emerge, how they mirror familiar software risks like dependency confusion and unsafe deserialization, and how to design MCP servers and Skill integrations that reduce trust, contain blast radius, and keep agent systems defensible.<br><br>Attendees will leave with a practical framework for identifying trust boundaries, evaluating agent integrations, and hardening their AI stack against toxic flows.<br>",
           "totalFavourites": 357,
           "slidesUrl": "",
-          "teamRating": null
+          "teamRating": {
+            "rating": 8.0,
+            "reviews": 1
+          }
         }
       },
       {
@@ -4145,7 +4235,10 @@
           "description": "Can you create a complete game with just 10 lines of code? That was the quest I set myself when recreating the classic game Snake in as few lines as possible. Let me tell you: I was not ready for the types of challenges I would face. For example, just registering button presses was not as straightforward as I had hoped.<br><br>Through live coding, I will show you how I overcame these obstacles and distilled Snake to its absolute essence. What key elements make this game instantly recognizable? By only using tools from the JDK, we will end up with a minimal code base and if not award-winning, at least a playable version of Snake.<br><br>Striving for conciseness led me to a deeper understanding of the code. I will show how constraints push us to think outside the box and lead to more creative solutions. Moreover, my approach can be applied to any problem. Sometimes the best way to understand code is by seeing how little of it you actually need!",
           "totalFavourites": 162,
           "slidesUrl": "",
-          "teamRating": null
+          "teamRating": {
+            "rating": 9.0,
+            "reviews": 1
+          }
         }
       },
       {
@@ -4334,7 +4427,10 @@
           "description": "Asking the right questions is more powerful than having the right answers. As technologists, we quickly jump into solution mode and try to help by offering solutions and sometimes even taking on other people's problems as our own.<br><br>This is not our fault; we've been trained this way. However, computer problems and people's problems are often very different, and solving or taking on somebody else's problem not only burdens us but also robs them of an opportunity to grow.<br><br>If you feel like every problem in your organization or team constantly gravitates towards you, if you wonder why people just don't \"learn this stuff,\" or if you are looking to become better at helping others grow, this talk is for you!<br><br>In this talk, we will go over basic coaching skills to help you help others - everything from properly listening to asking the right questions. We'll cover different formats from impromptu coaching to more formal coaching and how to use coaching skills to coach up and sideways in your organization.<br><br>Come to this talk if you are interested in making the people around you grow and excel and, in the process, create more time to work on your problems, not theirs.",
           "totalFavourites": 411,
           "slidesUrl": "",
-          "teamRating": null
+          "teamRating": {
+            "rating": 6.5,
+            "reviews": 2
+          }
         }
       },
       {
@@ -4474,7 +4570,10 @@
           "description": "Ted Nelson was a troublemaker. In 1974, frustrated by the closed and bureaucratic world of computing, he wrote Computer Lib/Dream Machines, a book that was part manifesto and part blueprint for a digital future. Nelson saw computers not as tools of control but as portals to personal freedom, creativity and interconnected knowledge. He championed hypertext long before the web, called out the dangers of technical jargon designed to exclude ordinary people and fought for systems that put users in charge.<br><br>This talk tells the story of Computer Lib, the man behind it and the philosophy that shaped it. It explores how Nelson’s ideas could have led to a very different digital world, one built around open, decentralised knowledge rather than the walled gardens and algorithmic control we have today. What if his vision had won? What would the internet look like if computing had followed the path of Computer Lib instead of Big Tech?<br><br>Nelson once wrote that “most authority is malignant.” This is a talk about the man who wanted to dismantle it and the future we lost when the world ignored him.",
           "totalFavourites": 102,
           "slidesUrl": "",
-          "teamRating": null
+          "teamRating": {
+            "rating": 3.0,
+            "reviews": 1
+          }
         }
       },
       {
@@ -4574,7 +4673,10 @@
           "description": "Java gets faster every year—often without developers changing a single line of application code. But what actually changed inside the JDK, which improvements matter to real applications, and how do the engineers working on Java know that an optimization is truly an improvement?<br><br>Returning to Devoxx for the yearly Java performance update, we will explore a curated selection of performance work delivered since last year. We will visit the standard libraries, the HotSpot runtime, the JIT compilers, and the garbage collectors to see how improvements at every layer combine to make modern Java applications faster, more scalable, and more resource-efficient.<br>Along the way, we will examine enhancements to startup and warmup, allocation and memory footprint, garbage-collection throughput, virtual-thread scalability, vectorization, and frequently used library operations. For selected optimizations, we will look beneath the API to understand the implementation techniques involved—and see why a seemingly small change can sometimes produce a surprisingly large result.<br><br>Attendees will learn which improvements arrive automatically when upgrading, which require explicit configuration or particular coding patterns, and how to evaluate their impact on real workloads. Expect measurements, implementation details, practical advice, and a glimpse of the performance work already taking shape for future Java releases.<br>Upgrade your JDK, bring your benchmarks—and stay on the fast path.",
           "totalFavourites": 367,
           "slidesUrl": "",
-          "teamRating": null
+          "teamRating": {
+            "rating": 3.0,
+            "reviews": 1
+          }
         }
       },
       {
@@ -4658,7 +4760,10 @@
           "description": "At the Port of Rotterdam, our system had grown into far more microservices than our teams could effectively own. The result: operational overhead, fragmented domain knowledge, and an <strong>overgrown architecture</strong> that was hard to maintain and evolve.<br>In this session, I’ll share how we combined <strong>Domain-Driven Design (DDD)</strong> with <strong>Spring Modulith</strong> to consolidate our microservices into a smaller set of modular monoliths. Each microservice represents a <strong>bounded context</strong>, with modules organized around <strong>distinct business capabilities,</strong> preserving clear domain boundaries while reducing operational complexity.<br><br>You’ll learn:<br><ul><li>How to define and model business domains and bounded contexts using DDD</li><li>How to implement these domains as modular monoliths with Spring Modulith</li><li>How Spring Modulith keeps your modules clean and maintainable</li><li>Common pitfalls we encountered and how we solved them</li></ul><br>If your microservices landscape has outgrown your teams, this talk shows how modular monoliths can restore clarity, ownership, and long-term maintainability, without compromising architectural integrity.",
           "totalFavourites": 517,
           "slidesUrl": "",
-          "teamRating": null
+          "teamRating": {
+            "rating": 4.5,
+            "reviews": 2
+          }
         }
       },
       {
@@ -4758,7 +4863,10 @@
           "description": "What do you learn after spending years maintaining and evolving a technology that predates modern programming languages, cloud platforms, and smartphones?<br><br>This session explores real engineering challenges encountered while building PDF technology at scale, from compatibility and performance to security, testing, and interoperability. Through a series of stories and hard-earned lessons, you'll see why mature systems can be some of the best teachers for designing resilient software and why the hardest problems are often the ones users never notice.",
           "totalFavourites": 117,
           "slidesUrl": "",
-          "teamRating": null
+          "teamRating": {
+            "rating": 7.0,
+            "reviews": 1
+          }
         }
       },
       {
@@ -4959,7 +5067,10 @@
           "description": "For this year's Robot Games challenge, builders were asked to make a playable game starring Devoxx's robots in the Kinepolis venue, using AI as their co-developer. We received nine submissions, and several were so good that we couldn't pick a single winner. So we're handing the stage to all of them.<br><br>In this lunch session, each creator gets four minutes for a live demo and a quick look behind the scenes. What did they build, and how did they direct the AI? Which tools did they use, and what did they have to fix by hand? Expect a mix of technology and styles: 3D worlds in Three.js, hand-built 2D engines, a text-mode BBS door game, procedural chiptune music and AI-generated art. Some builders worked with Claude Code, others with Codex, Copilot or Grok.<br><br>Come to see nine very different games, learn what actually works when you build with AI, and tell us which one deserves your vote.<br><br>You can also play the games online at https://game.devoxx.be/vote.html",
           "totalFavourites": 180,
           "slidesUrl": "",
-          "teamRating": null
+          "teamRating": {
+            "rating": 1.0,
+            "reviews": 1
+          }
         }
       },
       {
@@ -5076,7 +5187,10 @@
           "description": "A talk on git? In this day and age?! Yes. Especially in this day and age. AI agents are running increasingly obscure git commands in our terminals, and most of us just nod along, pretending we know what rerere does. If the machines get to have fun with git, so do we.<br><br>So to understand git better, Alexander built an RTS game with git at its core, and in this session you will see it in action! Expect jumps between alternate timelines using branches, time travel back and forth through history, and a front row seat to what happens when a merge conflict occurs between two buildings.<br><br>Somewhere between the conquests and the explosions, the weird parts of git start to make sense. Detached heads, rebases, the plumbing underneath, all of it becomes a lot less mysterious once you have seen it blow up an energy plant. Beginners will leave with a solid feel for how git actually works, veterans with a fresh look at a tool they use every day. Come for the explosions, stay for the fun and giggles!",
           "totalFavourites": 318,
           "slidesUrl": "",
-          "teamRating": null
+          "teamRating": {
+            "rating": 9.0,
+            "reviews": 1
+          }
         }
       },
       {
@@ -5185,7 +5299,10 @@
           "description": "Modern software increasingly interacts with AI models, query languages, and other specialized programming models, forcing you to switch contexts, embed foreign code, or write verbose wrappers to bridge the gap. What if you could express logic from outside the JVM directly in Java?<br><br>In this session, we start by looking at how Java enables you to safely interact with runtimes outside of the JVM using the Foreign Function and Memory API and tools like jextract.<br>Then will push further with Project Babylon’s code reflection: express AI models as Java programs that Babylon can analyze, transform and lower to inference engines, thus leveraging hardware accelerator backends while skipping external model files or the need to glue code.<br><br>Along the way, you will learn how to build expressive FFM-based inference today and author pure Java AI-ready models with Code Reflection tomorrow!",
           "totalFavourites": 255,
           "slidesUrl": "",
-          "teamRating": null
+          "teamRating": {
+            "rating": 2.0,
+            "reviews": 1
+          }
         }
       },
       {
@@ -5213,7 +5330,10 @@
           "description": "Apache Parquet has become the lingua franca of the modern data ecosystem, powering data lakes and table formats like Apache Iceberg—but for Java, the go-to library parquet-java pulls in Hadoop and a truckload of other dependencies, and its reader is single-threaded. This was bugging me enough to start Hardwood, a brand-new Parquet parser written from scratch in modern Java, applying some of the performance lessons learned from the One Billion Row Challenge. Come and join me for this talk, where we'll look at:<br><br>- The internals of the Parquet format and what makes parallelizing its decoding surprisingly tricky<br>- Techniques for achieving high throughput, such as page-level parallelism, adaptive prefetching, and avoiding auto-boxing in hot loops<br>- How to use JDK Flight Recorder for identifying performance bottlenecks<br>- Practical learnings from using AI (specifically, Claude Code) as a coding companion—what works well, where you need to stay sharp, and why \"built with AI\" doesn't mean \"vibe-coded\"<br><br>Whether you're interested in file formats, Java performance, or getting a realistic take on AI-assisted development, there should be something in here for you.",
           "totalFavourites": 44,
           "slidesUrl": "",
-          "teamRating": null
+          "teamRating": {
+            "rating": 9.5,
+            "reviews": 2
+          }
         }
       },
       {
@@ -5318,7 +5438,10 @@
           "description": "Would your test suite still pass if the tested code was changed? If so, you probably have gaps in your test suite, redundant or unreachable code, or maybe even both!<br><br>Mutation Testing reveals these cases, and provides some guidance about how to fix them. This talk will tell you what mutation testing is, how it works inside, how to use it, where in your development process to use it, and its benefits, drawbacks, and history. There will be multiple examples, and a list of tools for many popular languages (and some others).<br><br>You will learn a powerful technique for making sure your test suite is strict and your code is meaningful!",
           "totalFavourites": 294,
           "slidesUrl": "",
-          "teamRating": null
+          "teamRating": {
+            "rating": 7.0,
+            "reviews": 1
+          }
         }
       },
       {
@@ -5407,7 +5530,10 @@
           "description": "The idea stems from https://xkcd.com/2347/ and Mark Rendle’s talk at Devoxx.be 2024.<br><br>Most people are unaware of the hassles we face (or inflict upon ourselves) regarding legacy systems, technical choices, or our own organizational structures.<br><br>The goal is to have a laugh about our points of contention (Lombok? Reactive? Date formats?), our nemeses (printers, CORS), language quirks—including the fact that you can run *Doom* inside the TypeScript type system—why no one truly understands C++, wacky HTTP status codes, centering `div`s (of course), the Y2K non-event versus the real Y2K38 problem, RGB vs. CMYK, April Fools' RFCs, web page and file encoding issues, consistently botched Excel integrations, business-dictated file naming conventions, the headache of IEEE 754 rounding, the \"ultimate\" email validation regex, hidden (or missing) CPU instructions, the shift toward inclusivity since 2020 (dropping \"master/slave\" terminology...), SOA, the long-awaited WASM, corporate timesheets, and—last but not least—the crucial question: *how do you exit vi?*",
           "totalFavourites": 581,
           "slidesUrl": "",
-          "teamRating": null
+          "teamRating": {
+            "rating": 4.0,
+            "reviews": 2
+          }
         }
       },
       {
@@ -5573,7 +5699,10 @@
           "description": "For most of our careers, the scarce thing was producing code. That world is ending. An assistant now produces competent code faster than any of us can read it, and the bottleneck has moved from writing to understanding.<br><br>Nothing moved on the responsibility side, though. We are still accountable for every line we merge, no matter who or what typed it. Staying in the loop, knowing the system, owning the design, that is the job description now.<br><br>This talk is not a manifesto, it is a set of recipes. The practices I use daily to stay in control of code that arrives faster than I could write it:<br><br><ol><li><strong>Phased delivery</strong> - Large tasks are split into small phases with a review gate after each one. No big-bang diffs.</li><li><strong>Walk-throughs</strong> - The assistant guides me through a change step by step, in reading order, instead of leaving me alone with a raw diff.</li><li><strong>Made for humans </strong>- Correct is not the bar, understandable is. Design and readability are acceptance criteria, and I send back what does not meet them.</li><li><strong>Engineering depth </strong>- Know your stuff. The deeper you understand your system, the harder it is to be fooled by a confident, plausible answer.</li><li><strong>Files and comments </strong>- Sessions produce files and in-code comments instead of long chat threads. Easy to navigate, easy to annotate for the assistant.</li></ol><br>Together these form a flow that keeps me in control and grows my knowledge instead of eroding it. You will leave with techniques you can apply the next day, whatever assistant you use.",
           "totalFavourites": 374,
           "slidesUrl": "",
-          "teamRating": null
+          "teamRating": {
+            "rating": 7.0,
+            "reviews": 1
+          }
         }
       },
       {
@@ -5606,7 +5735,10 @@
           "description": "JSON is ubiquitous in modern software, and many use cases are just too small to justify adding external dependencies.<br><br>To address these everyday use cases, a new JEP proposes a simple, incubating API for parsing, navigating, and generating JSON documents-both for Java developers and for the JDK itself.<br><br>While the Java ecosystem offers many libraries with JSON-processing capabilities, this built-in API is not intended to replace them, but rather to offer a low-friction option when an external library would be unnecessary or impractical.<br><br>In this talk, we will show how Data-Oriented Programming helps simplify the API, discuss its intended use cases, outline the design trade-offs, and demonstrate its capabilities.",
           "totalFavourites": 230,
           "slidesUrl": "",
-          "teamRating": null
+          "teamRating": {
+            "rating": 7.0,
+            "reviews": 1
+          }
         }
       },
       {
@@ -5818,7 +5950,10 @@
           "description": "Everybody now and then comes into a new team, or someone else comes into theirs. More often than not, cooperation does not go seamlessly straight away. Sometimes this evens out by itself along the way. But in many occasions, it does not. Ways of working could be different. Something one values a lot, may not be valued at all by another, creating conflict. One may criticise or get criticised and things get uncomfortable. Teams may split into \"camps\" or one person just never agrees with the others. Team members may feel stepped over, pushed aside or misunderstood. If this goes on for too long, team members start to feel generally disrespected and demotivated. Then there are cases one member feels another is not qualified, or just a bully. This goes beyond forming and storming, this becomes a (team-wide) problem. In this talk you will see you are not the only one experiencing these challenges. You will hear experiences on solving these kind of cases (or not!), get an idea of how others deal with it and what your options are if you ever find yourself in the weeds (again). In any case, you probably will be surprised by yourself or your team mate in one way or another...",
           "totalFavourites": 327,
           "slidesUrl": "",
-          "teamRating": null
+          "teamRating": {
+            "rating": 1.0,
+            "reviews": 1
+          }
         }
       },
       {
@@ -6126,7 +6261,10 @@
           "description": "Java 28 will soon introduce, as a preview feature, value classes (JEP 401), a new kind of class that renounces its identity to get better performance.<br><br>In this presentation, we will explain what value classes are, how the Java spec was re-interpreted to conjure their existence, how they interact with existing code and what optimizations they enable both on the stack and the heap.<br><br>To make it concrete, we'll explore these ideas through the simulation and rendering of a black hole: calculating the trajectories of thousands of light rays through curved spacetime means manipulating huge numbers of vectors, rays, coordinates, and intermediate values.<br><br>Finally, we will look ahead at the experimental \"!\" syntax for null-restricted types, its optimization potential, and the limitations of the current design.<br><br>Join us to discover value classes and the current state of Project Valhalla.",
           "totalFavourites": 290,
           "slidesUrl": "",
-          "teamRating": null
+          "teamRating": {
+            "rating": 4.0,
+            "reviews": 2
+          }
         }
       },
       {
@@ -6210,7 +6348,10 @@
           "description": "So you got \"promoted\" to lead a team / project / whatever. What now? Do you have what it takes? It certainly seems that your hierarchy thinks so. But oftentimes things are not so black and white. Being a great plumber doesn't automatically make you a great leader of plumbers, so you need to adapt and adjust your ways of working by dropping old habits and picking up new ones. Then you start getting worried by the fact that you won't be able to have as much impact as before, since you're not coding as much as you used to in the past (and that's what you're good at, right?).<br><br>What if leadership can amplify your technical impact instead? In this talk, I’ll share how I evolved from individual contributor to a mix of Solution Architect, Tech Lead and classical Engineering Manager at CERN - keeping my hands in the code while scaling my influence through the team that I work with. I'll be sharing best practices and adjustment techniques for you to use when faced with the difficult transition process into technical leadership. And lastly, we'll be talking about how to stay relevant even if you're not spending countless hours honing your coding skills anymore.<br>",
           "totalFavourites": 240,
           "slidesUrl": "",
-          "teamRating": null
+          "teamRating": {
+            "rating": 4.5,
+            "reviews": 2
+          }
         }
       },
       {
@@ -6282,7 +6423,10 @@
           "description": "For the last 20-30 years, the software industry has been learning — sometimes the hard way — how to build better software. Practices like TDD, refactoring, pair programming, simple design, collective code ownership, continuous integration, and coding standards didn't appear by magic. They came from pain, failed projects, and the brilliant minds behind XP — Kent Beck, Ward Cunningham, and Ron Jeffries — who asked: \"can we do this better?\"<br><br>And now? Now we have AI. And suddenly, some developers are asking: \"do we still need all that?\"<br><br>In this session, we'll look at 7 XP practices that are genuinely at risk in an AI-assisted world — not because they're wrong, but because AI makes it tempting to skip them. We'll see what happens when teams do skip them (spoiler: it's not pretty 😅), and more importantly, how these practices don't just survive the AI era — they become *more critical than ever*.<br><br>AI amplifies everything. Good habits and bad ones. If your team has no tests, no shared standards, no feedback loop — AI will help you build the mess of your life, faster than ever before.<br><br>AI is the best stress test XP practices have ever had. Spoiler: they pass 😉",
           "totalFavourites": 304,
           "slidesUrl": "",
-          "teamRating": null
+          "teamRating": {
+            "rating": 5.0,
+            "reviews": 1
+          }
         }
       },
       {
@@ -6343,7 +6487,10 @@
           "description": "In our job, technical debt is probably the most frustrating, draining and tenacious thing we have to fight against. Of course, there are best practices: refactor, aim for simplicity with KISS, avoid over-engineering with YAGNI in order to keep this debt as low as possible. And yet, we never really manage to get rid of it. Worse, it keeps piling up even when we apply those principles, as if it were inevitable.<br><br>But what if those very best practices sometimes made the problem worse instead of solving it? Technical debt may be only the visible part of something deeper: accidental design debt. A far more complex problem that leads to spaghetti software and microservices that are really just a distributed monolith, and that we often create ourselves without even realizing it.<br><br>In this talk, we will explore the mechanisms of design debt and its impact on our architecture, our processes, our organization, and even our business. Through concrete examples, we will see how to detect it, assess how deep it goes, and act before it becomes entrenched for good.",
           "totalFavourites": 514,
           "slidesUrl": "",
-          "teamRating": null
+          "teamRating": {
+            "rating": 4.0,
+            "reviews": 1
+          }
         }
       },
       {
@@ -6371,7 +6518,10 @@
           "description": "What happens when your architecture doesn't just fail a performance test, but triggers a national regulatory investigation? In this session, we go inside a critical system failure at a major bank that led to a formal report to BaFin and a complete rethink of our data strategy.<br>Dealing with 11TB of data on Oracle Exadata taught us that at a certain scale—specifically, the 10-billion-record mark—standard indexing strategies and read-side duplicate checks don't just slow down; they collapse. We will reverse-engineer this incident by walking through the five critical architectural milestones:<br><ol><li><strong>First Aid: </strong>Immediate application-layer mitigation steps to halt cascading timeouts.</li><li><strong>The Refactoring Oversight:</strong> How a missing 10-day query window check, removed years prior, silently waited to trigger an 11TB full scan. </li><li><strong>The Cache Bottleneck:</strong> The high-stakes \"do nothing\" war room decision to wait for the Exadata Smart Flash Cache to warm up and recover. </li><li><strong>The Structural Flip:</strong> Moving 10kB of complex analytic queries from read-side deduplication to a write-side integrity layer. </li><li><strong>The Exit Strategy:</strong> Designing and planning a zero-loss dual-write ingestion architecture to migrate 10 billion records to Cloud PostgreSQL without CDC. </li></ol>Walk away with an unvarnished, practical blueprint for navigating the compliance-performance paradox, handling database cold starts, and executing a zero-loss cloud modernization strategy under heavy pressure.",
           "totalFavourites": 216,
           "slidesUrl": "",
-          "teamRating": null
+          "teamRating": {
+            "rating": 8.0,
+            "reviews": 2
+          }
         }
       },
       {
@@ -6420,7 +6570,10 @@
           "description": "In the 1970s, model trains were a popular hobby. Thanks to low production costs, anyone could afford a small HO gauge layout. The system was simple: a train, a motor, 12V DC in the track, and off you go!<br><br>Fifty years later, we took our trains out of the attic with a big idea in mind: to convert them to digital. With some Seeed Studio, Bluetooth, and TinyGo, we managed to get a functional railway network, were we can manage speed, direction, and lights of each train individually.<br><br>This talk speaks about hardware and software architecture for embedded systems, in a retrospective format about all our successes (and mistakes) during the conception of this project. Everything is open-source, so don't hesitate to use it, fork it, and enhance it!",
           "totalFavourites": 80,
           "slidesUrl": "",
-          "teamRating": null
+          "teamRating": {
+            "rating": 7.3,
+            "reviews": 3
+          }
         }
       },
       {
@@ -6504,7 +6657,10 @@
           "description": "Stuck in a legacy system that needs modernizing? Feel like the best course of action is to throw it in a dumpster, light it on fire and rewrite everything from scratch - maybe even in a different language?<br><br>Hold that thought. While it may be tempting to start a rewrite, rewrites of complicated systems rarely succeed for multiple reasons. Chief among them is time and the fact that not everything can stop and wait for the rewrite, but another important contributor is the second system effect, which usually causes rewrites to be over-engineered and bloated in comparison to what they replace<br><br>In this talk, I'll share my experiences with the Strangler Fig pattern, a better approach where the original system is gradually replaced by breaking out or rewriting parts into separate systems. I'll also talk about combining this with Domain Driven Design and how to use the new design to execute an Inverse Conway Manoeuvre to ensure you're working with Conway's law and not against it.",
           "totalFavourites": 305,
           "slidesUrl": "",
-          "teamRating": null
+          "teamRating": {
+            "rating": 7.0,
+            "reviews": 1
+          }
         }
       },
       {
